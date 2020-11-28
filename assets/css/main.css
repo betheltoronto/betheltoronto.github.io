@@ -3520,6 +3520,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		z-index: 2;
+		margin-top: 30px;
 	}
 
 		#header input, #header select, #header textarea {
@@ -3563,18 +3564,19 @@ input, select, textarea {
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
-			border-style: solid;
-			border-color: #ffffff;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1;
-			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
 		}
+
+			#header a {
+				border-bottom: none;
+			}
 
 			#header .logo:hover {
 				border-color: #18bfef !important;
@@ -4704,4 +4706,14 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		height: 100%;
+	}
+
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.sticky + .main {
+		padding-top: 60px;
 	}
