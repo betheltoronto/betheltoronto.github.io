@@ -603,6 +603,10 @@ category colours
     color: rgb(53, 79, 82);
 }
 
+.home-heading h2 {
+    color: rgb(202, 210, 197);
+}
+
 .image-profile {
     border-radius: 50%;
     height: 130px;
@@ -674,4 +678,10 @@ color: #0085A1;
 
 .no-bullets {
    list-style: none; 
+}
+
+/* font awesome */
+
+.fa-bars {
+    color: lightgray;
 }
