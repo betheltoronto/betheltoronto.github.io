@@ -610,6 +610,7 @@ category colours
 .image-profile {
     border-radius: 50%;
     height: 130px;
+    margin-bottom: 15px;
 }
 
 .date-post {
