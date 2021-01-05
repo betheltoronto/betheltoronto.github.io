@@ -25,7 +25,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-      <img src="images/bethel-logo.jpg" style="width: 50px;" alt="bethel logo">
+      <img src="images/bethel-logo.png" style="width: 50px;" alt="bethel logo">
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
@@ -60,8 +60,12 @@
             <a class="dropdown-item" href="loc.html">Location</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Contact <i class="fa fa-angle-down"></i></a>
+          <div class="dropdown-menu" id="drop-4">
+            <a class="dropdown-item" href="contact.html">Contact Us</a>
+            <a class="dropdown-item" href="prayer.html">Prayer Request</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -144,6 +148,14 @@
       </div>
 
     </div>
+    <div class="row mx-auto pat-bot">
+      <div class="col-6 text-center btn-group">
+        <a href="new.html" class="btn btn-primary btn-block">I am new to Bethel</a>
+      </div>
+      <div class="col-6 text-center btn-group">
+        <a href="prayer.html" class="btn btn-primary btn-block">Submit a Prayer Request</a>
+      </div>
+    </div>
   </div>
   
   <!--Layout 2, not being used
@@ -205,73 +217,79 @@
 
 <!-- Footer -->
 <footer>
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-        <p class="copyright text-muted">Copyright &copy; Bethel English Ministry</p>
-      </div>
-    </div>
-  </div> -->
   <div class="container">
-    <div class="row"><!--row 1-->
-
-      <div class="col-12 col-sm-4"><!--address-->
-        <h4>Address</h4>
+    <div class="row footer-text">
+      <div class="col-lg-9 d-none d-sm-block"><!--home to contact BEGINS-->
+        <div class="row foot-links-map">
+          <div class="col-sm-2">
+            <h4>
+              <a href="index.html">Home</a>
+            </h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">I am New</a></li>
+              <li><a href="index.html">Prayer Request</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h4>
+              Service
+            </h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Attend</a></li>
+              <li><a href="index.html">Giving</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h4>
+              Vision
+            </h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Discipleship</a></li>
+              <li><a href="index.html">Bible Study</a></li>
+              <li><a href="index.html">Small Groups</a></li>
+              <li><a href="index.html">CEL</a></li>
+              <li><a href="index.html">KM</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h4>
+              About
+            </h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Vision</a></li>
+              <li><a href="index.html">Leadership</a></li>
+              <li><a href="index.html">Location</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h4>
+              <a href="index.html">Contact</a>
+            </h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!--home to contact END-->
+      <div class="col-lg-3 text-lg-right text-md-center"><!--address BEGINS-->
+        <h3>
+          Address
+        </h3>
         <p>
           1155 College St<br />
           Toronto, ON M6H 1B7<br />
           (Near College and Dufferin)
         </p>
-        <!-- <div class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1443.4188611353031!2d-79.43439089733639!3d43.65154449682288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34504ea0de69%3A0x50348d1fc8c7685d!2sToronto%20Bethel%20Community%20Church!5e0!3m2!1sen!2sca!4v1607036195459!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div> -->
-      </div>
-
-      <div class="col-sm-4 d-none d-sm-inline"><!--quick links-->
-        <div class="text-center">
-          <h4 class="quick-links">Quick Links</h4>
-          <ul class="text-center footer-links">
-            <li class="list-item">
-              <li><a href="index.html">Home</a></li>
-							<li><a href="service.html">Service</a></li>
-							<li><a href="vision.html">Vision</a></li>
-							<li><a href="loc.html">Location</a></li>
-            </li>
-          </ul>
-        </div>
-      </div>
-
+      </div><!--address ENDS-->
+    </div>
+    <hr/>
+    <div class="row footer-text">
       <div class="col-sm-4 logos"><!--SM links-->
-        <div class="text-center text-sm-right">
+        <div class="text-center text-sm-left">
           <!-- <h4>Links</h4> -->
           <br />
-          <ul class="list-inline text-center text-sm-right">
+          <ul class="list-inline text-center text-sm-left">
             <li class="list-inline-item">
               <a href="https://www.instagram.com/betheltoronto/">
                 <span class="fa-stack fa-lg">
@@ -307,18 +325,15 @@
           </ul>
         </div>
       </div>
-
-    </div><!--end of row 1-->
-
-    <div class="row"><!--row 2-->
-      <div class="col display-block text-center">
+      <div class="col text-center copyright align-self-end">
+        <p class="copyright text-dark">Copyright &copy; Bethel English Ministry 2021</p>
+      </div>
+      <div class="col text-sm-right">
         <a href="index.html">
-          <img src="images/logo.png" style="width: 100px;" alt="bethel logo">
+          <img src="images/bethel-logo.png" style="width: 100px;" alt="bethel logo">
         </a>
       </div>
-    </div><!--end of row 2-->
-
-    <p class="copyright text-dark">Copyright &copy; Bethel English Ministry 2021</p>
+    </div>
   </div>
 </footer>
 
